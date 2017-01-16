@@ -25,6 +25,7 @@ RETURN:
 (Clement Farabet, 2012)
 ]]
 function optim.sgd(opfunc, x, config, state)
+   print('SGD')
    -- (0) get/update state
    local config = config or {}
    local state = state or config

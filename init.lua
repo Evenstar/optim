@@ -18,6 +18,7 @@ require('optim.rmsprop')
 require('optim.adadelta')
 require('optim.cmaes')
 require('optim.de')
+require('optim.csgd')
 
 -- line search functions
 require('optim.lswolfe')
